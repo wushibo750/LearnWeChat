@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view >
+<!-- 表单数据获取 -->
+  <input bindinput="iptFu"/>
+  <view>{{msg}}</view>
+  <!-- 文件上传 -->
+  <button type="primary" bindtap="uploadFile">单文件上传</button>
+  <image src="{{imageFile}}" alt="文件出问题了"/>
+  <button type="primary" bindtap="uploadFiles">多文件上传</button>
+  <view wx:for="{{imageFiles}}" wx:key="{{name}}">
+    {{index}}--{{item.name}}
+    <image src="{{item.path}}"></image>
+  </view>
+</view>
