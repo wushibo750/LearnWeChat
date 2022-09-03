@@ -1,0 +1,6 @@
+<!-- 获取用户头像和昵称 -->
+<button wx:if="{{!userInfo}}" bindtap="getUser">点击获取（10月24日失效）</button>
+<view wx:else class="root">
+    <image class="" src="{{userInfo.avatarUrl}}"></image>
+    <text>{{userInfo.nickName}}</text>
+</view>
