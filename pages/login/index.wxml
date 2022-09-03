@@ -1,1 +1,3 @@
-
+<!-- 不弹出登录提示只能获取到用户的临时登录凭证code。这个code具有时效性，能用于区别用户，需要从小程序前端传到开发者服务器后端，再从后端传到微信服务器进行核验，来获取用户唯一标识openid和会话密钥 session_key。 -->
+<button bindtap="getLogin">点击登录</button>
+<!-- 我觉得大概的意思就是通过wx.login获取到code的值，然后结合使用appid和appsecret获取到openid和session_key -->
