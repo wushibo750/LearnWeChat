@@ -1,0 +1,7 @@
+<button type="primary" bindtap="chooseImg">选择图片</button>
+<!-- 通过获取的图片数组，遍历图片 -->
+<block wx:for="{{imgUrls}}" wx:key="{{index}}">
+  <image src='{{item}}' data-url="{{item}}" bindtap='previewImg'></image>
+</block> 
+<!-- 长按触发按钮 -->
+<button bindlongtap="longTap">长按触发</button>
