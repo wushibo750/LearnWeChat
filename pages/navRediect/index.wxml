@@ -1,0 +1,5 @@
+<!-- wx.navigateTo 和 wx.redirectTo 不允许跳转到 tabbar 页面，只能用 wx.switchTab 跳转到 tabbar 页面 -->
+<!-- 页面跳转 -->
+<navigator url="../uploadFiles/index">点击跳转至新页面</navigator>
+<!-- button点击跳转 -->
+<button bindtap="getNav" size="mini" type="primary">跳转至新页面</button>

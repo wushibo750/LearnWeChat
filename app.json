@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/navRediect/index",
+    "pages/login/index",
     "pages/getUserInfo/index",
     "pages/uploadFiles/index"
   ],
