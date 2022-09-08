@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/layout/leftContainer",
+    "pages/layout/container/classContainer",
+    "pages/layout/container/leftContainer",
     "pages/imageManage/index",
     "pages/login/index",
     "pages/navRediect/index",
-    
     "pages/getUserInfo/index",
     "pages/uploadFiles/index"
   ],
