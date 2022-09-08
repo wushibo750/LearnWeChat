@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/layout/leftContainer",
     "pages/imageManage/index",
     "pages/login/index",
     "pages/navRediect/index",

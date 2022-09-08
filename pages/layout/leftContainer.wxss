@@ -1,0 +1,28 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+}
+.list{
+    width: 400rpx;
+    height: 100%;
+}
+.style{
+    width: 400rpx;
+    height:100%;
+    line-height: 100rpx;
+    padding-left: 20rpx;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    line-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.active{
+    color: red;
+}

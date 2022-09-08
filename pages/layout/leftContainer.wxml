@@ -1,0 +1,6 @@
+<view class="wrap">
+    <view class="list">
+        <view class="style {{item.id==num? 'active':''}}" catchtap="clickList" wx:for="{{message}}" wx:key="" id="{{index}}">{{item.text}}</view>
+    </view>
+    <view class="content">{{content}}</view>
+</view>
