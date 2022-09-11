@@ -45,3 +45,17 @@
   <view class="demo-rate_title">请点击评分</view>
   <t-rate value="{{value}}" variant="filled" bindchange="onChange"></t-rate>
 </view>
+
+<view class="wrapper">
+  <t-upload
+          addContent="slot"
+          mediaType="{{['video','image']}}"
+          files="{{originFiles}}"
+          gridConfig="{{gridConfig}}"
+          config="{{config}}"
+          bind:success="handleSuccess"
+          bind:remove="handleRemove"
+  >
+    <t-icon slot="add-content" name="add" size="40rpx" color="rgba(0,0,0,0.26)" />
+  </t-upload>
+</view>
