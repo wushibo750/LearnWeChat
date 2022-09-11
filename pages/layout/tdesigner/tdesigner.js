@@ -9,8 +9,16 @@ Page({
     border: {
       color: '#f6f6f6',
     },
+    value:3
   },
-
+  onChange(e){
+    console.log(e)
+    console.log(e.detail.value)
+    const {value}=e.detail;
+    this.setData({
+      value:value
+    });
+  },
   /**
    * 生命周期函数--监听页面加载
    */

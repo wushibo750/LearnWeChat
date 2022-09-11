@@ -40,3 +40,8 @@
     <t-grid-item text="标题文字" image="https://tdesign.gtimg.com/mobile/%E5%9B%BE%E7%89%87.png" />
     <t-grid-item text="标题文字" image="https://tdesign.gtimg.com/mobile/%E5%9B%BE%E7%89%87.png" />
 </t-grid>
+
+<view class="demo-rate">
+  <view class="demo-rate_title">请点击评分</view>
+  <t-rate value="{{value}}" variant="filled" bindchange="onChange"></t-rate>
+</view>
