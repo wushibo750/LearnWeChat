@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/layout/tdesigner/tdesigner",
     "pages/layout/container/classContainer",
     "pages/layout/container/leftContainer",
     "pages/imageManage/index",
@@ -14,7 +15,6 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json",
 
   "permission": {
