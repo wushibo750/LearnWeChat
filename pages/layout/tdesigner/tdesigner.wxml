@@ -1,5 +1,6 @@
 <!--pages/layout/tdesigner/tdesigner.wxml-->
 <text>pages/layout/tdesigner/tdesigner.wxml</text>
+<Dropdown>124124</Dropdown>
 <t-button type="primary">按钮</t-button>
 <view class="box">
   <t-button t-class="external-class" theme="primary" block disabled="{{disabled}}">强按钮</t-button>

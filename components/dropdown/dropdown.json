@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-dropdown-menu": "/miniprogram_npm/tdesign-miniprogram/dropdown-menu/dropdown-menu",
+    "t-dropdown-item": "/miniprogram_npm/tdesign-miniprogram/dropdown-menu/dropdown-item"
+  }
+}

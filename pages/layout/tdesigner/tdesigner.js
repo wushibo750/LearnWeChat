@@ -26,6 +26,7 @@ Page({
       count: 1,
     },
   },
+
   handleSuccess(e) {
     const { files } = e.detail;
     this.setData({

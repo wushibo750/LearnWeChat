@@ -6,6 +6,7 @@
     "t-grid-item": "tdesign-miniprogram/grid/grid-item",
     "t-rate": "tdesign-miniprogram/rate/rate",
     "t-upload": "tdesign-miniprogram/upload/upload",
-    "t-icon": "tdesign-miniprogram/icon/icon"
+    "t-icon": "tdesign-miniprogram/icon/icon",
+    "Dropdown": "../../../components/dropdown/dropdown"
   }
 }
