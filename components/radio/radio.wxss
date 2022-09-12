@@ -1,0 +1,5 @@
+/* components/radio/radio.wxss */
+.t-radio-group{
+    width: 750rpx;
+    background-color: red;
+}

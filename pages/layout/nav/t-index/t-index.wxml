@@ -1,0 +1,3 @@
+<!--pages/layout/nav/t-index/t-index.wxml-->
+<t-indexes id="bar" list="{{ list }}" height="{{barHeight}}" bind:select="onSelect"></t-indexes>
+

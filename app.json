@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/layout/nav/radio/radio",
+    "pages/layout/nav/t-index/t-index",
     "pages/layout/tdesigner/tdesigner",
     "pages/layout/container/classContainer",
     "pages/layout/container/leftContainer",
