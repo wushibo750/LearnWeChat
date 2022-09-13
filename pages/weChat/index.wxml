@@ -1,0 +1,9 @@
+<!--pages/weChat/index.wxml-->
+<view>Test</view>
+<input type="text" bindinput="handleInput" data-operation="{{1}}" placeholder="加1"/>
+<button bindtap="handletap" data-operation="{{-1}}" >减1</button>
+<radio-group bindchange="handleChange">
+    <radio color="red" value="male">男</radio>
+    <radio color="red" value="female">女</radio>
+</radio-group>
+<view>你选中的是:{{gender}}</view>

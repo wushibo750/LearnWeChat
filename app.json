@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/weChat/index",
     "pages/layout/nav/radio/radio",
     "pages/layout/nav/t-index/t-index",
     "pages/layout/tdesigner/tdesigner",
